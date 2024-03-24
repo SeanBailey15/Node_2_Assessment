@@ -190,6 +190,7 @@ ex.
 
 * Only ***logged in users*** should be able to use this endpoint.
 * Only ***the SPECIFIED user*** or ***any ADMIN*** can update a user.
+* Only ***ADMIN*** can update Admin privileges.
 * Accepts a JSON body with one or more of the following properties:
   * first_name
   * last_name
